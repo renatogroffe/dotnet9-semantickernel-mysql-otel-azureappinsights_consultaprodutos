@@ -1,0 +1,11 @@
+services:
+      
+  mysql:
+    image: mysql:9.0
+    volumes:
+      - ./basecatalogo.sql:/docker-entrypoint-initdb.d/01-basecatalogo.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: "MySql2025!"
+      MYSQL_DATABASE: "master"
+    ports:
+      - "3306:3306"
