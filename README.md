@@ -3,3 +3,8 @@ Exemplo em .NET 9 de Console Application que faz uso do projeto Semantic Kernel,
 
 ---
 
+## Traces
+
+Exemplo de trace gerado utilizando Azure OpenAI:
+
+![Trace com Azure OpenAI](img/appinsights-trace-01.png)
